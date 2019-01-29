@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashDrawer.Core", "CashDrawer.Core\CashDrawer.Core.csproj", "{C7A3100D-6FBF-474B-9A1F-9F26288516F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashDrawer.Core", "CashDrawer.Core\CashDrawer.Core.csproj", "{C7A3100D-6FBF-474B-9A1F-9F26288516F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashDrawer.Droid", "CashDrawer.Droid\CashDrawer.Droid.csproj", "{C500ABDD-6018-4763-A8DA-3D5343BC623E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,12 @@ Global
 		{C7A3100D-6FBF-474B-9A1F-9F26288516F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7A3100D-6FBF-474B-9A1F-9F26288516F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7A3100D-6FBF-474B-9A1F-9F26288516F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C500ABDD-6018-4763-A8DA-3D5343BC623E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C500ABDD-6018-4763-A8DA-3D5343BC623E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C500ABDD-6018-4763-A8DA-3D5343BC623E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C500ABDD-6018-4763-A8DA-3D5343BC623E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C500ABDD-6018-4763-A8DA-3D5343BC623E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C500ABDD-6018-4763-A8DA-3D5343BC623E}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
