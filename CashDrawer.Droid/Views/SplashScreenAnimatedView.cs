@@ -4,6 +4,7 @@ using Android.OS;
 using Android.Views;
 using Android.Views.Animations;
 using Android.Widget;
+using CashDrawer.Core.Helper;
 using CashDrawer.Core.ViewModels;
 using MvvmCross.Droid.Support.V7.AppCompat;
 using System;
@@ -54,7 +55,7 @@ namespace CashDrawer.Droid.Views
 
         private void TerminateAnimationIcon(object sender, EventArgs e)
         {
-            this.ViewModel.TerminateAnimationCommand.Execute(null);
+            this.ViewModel.TerminateAnimationCommand.Execute();
         }
         #endregion Methods
     }

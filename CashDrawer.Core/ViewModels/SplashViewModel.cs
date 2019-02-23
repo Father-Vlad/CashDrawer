@@ -1,4 +1,5 @@
-﻿using MvvmCross.Commands;
+﻿using CashDrawer.Core.Helper;
+using MvvmCross.Commands;
 using MvvmCross.Navigation;
 using System.Threading.Tasks;
 
@@ -21,6 +22,15 @@ namespace CashDrawer.Core.ViewModels
                 TerminateAnimationCommand = new MvxAsyncCommand(TerminateAnimationAsync);
             });
         }
+
+        public override async void ViewAppearing()
+        {
+            base.ViewAppearing();
+            if (!TimePresentation.IsFirstPresentation)
+            {
+                await TerminateAnimationAsync();
+            }
+        }
         #endregion Lifecycle
 
         #region Commands
@@ -32,6 +42,7 @@ namespace CashDrawer.Core.ViewModels
         {
             await Task.Run(() =>
             {
+                TimePresentation.IsFirstPresentation = false;
                 _navigationService.Close(this);
                 _navigationService.Navigate<MainViewModel>();
             });
