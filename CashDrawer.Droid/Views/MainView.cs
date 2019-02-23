@@ -1,5 +1,4 @@
-﻿
-using Android.App;
+﻿using Android.App;
 using Android.OS;
 using CashDrawer.Core.ViewModels;
 using MvvmCross.Droid.Support.V7.AppCompat;

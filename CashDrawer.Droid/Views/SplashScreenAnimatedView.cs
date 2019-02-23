@@ -4,14 +4,13 @@ using Android.OS;
 using Android.Views;
 using Android.Views.Animations;
 using Android.Widget;
-using CashDrawer.Core.Helper;
 using CashDrawer.Core.ViewModels;
 using MvvmCross.Droid.Support.V7.AppCompat;
 using System;
 
 namespace CashDrawer.Droid.Views
 {
-    [Activity(Theme = "@style/AppThemeNoActionBar", ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait, NoHistory = true)]
+    [Activity(Theme = "@style/AppTheme", ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait, NoHistory = true)]
     public class SplashScreenAnimatedView : MvxAppCompatActivity<SplashViewModel>
     {
         #region Variables

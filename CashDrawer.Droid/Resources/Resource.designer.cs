@@ -5970,6 +5970,9 @@ namespace CashDrawer.Droid
 			// aapt resource value: 0x7f080051
 			public const int disabled_alpha_material_light = 2131230801;
 			
+			// aapt resource value: 0x7f0800a9
+			public const int facebook_button_80 = 2131230889;
+			
 			// aapt resource value: 0x7f080000
 			public const int fastscroll_default_thickness = 2131230720;
 			
@@ -6053,6 +6056,48 @@ namespace CashDrawer.Droid
 			
 			// aapt resource value: 0x7f08009a
 			public const int notification_top_pad_large_text = 2131230874;
+			
+			// aapt resource value: 0x7f0800a2
+			public const int padding_margin_10 = 2131230882;
+			
+			// aapt resource value: 0x7f0800a1
+			public const int padding_margin_20 = 2131230881;
+			
+			// aapt resource value: 0x7f0800a4
+			public const int padding_margin_3 = 2131230884;
+			
+			// aapt resource value: 0x7f0800a0
+			public const int padding_margin_30 = 2131230880;
+			
+			// aapt resource value: 0x7f08009f
+			public const int padding_margin_40 = 2131230879;
+			
+			// aapt resource value: 0x7f0800a3
+			public const int padding_margin_5 = 2131230883;
+			
+			// aapt resource value: 0x7f08009e
+			public const int padding_margin_50 = 2131230878;
+			
+			// aapt resource value: 0x7f08009d
+			public const int padding_margin_70 = 2131230877;
+			
+			// aapt resource value: 0x7f08009c
+			public const int text_size_20 = 2131230876;
+			
+			// aapt resource value: 0x7f08009b
+			public const int text_size_30 = 2131230875;
+			
+			// aapt resource value: 0x7f0800a5
+			public const int toolbar_button_30 = 2131230885;
+			
+			// aapt resource value: 0x7f0800a6
+			public const int toolbar_button_40 = 2131230886;
+			
+			// aapt resource value: 0x7f0800a8
+			public const int toolbar_button_50 = 2131230888;
+			
+			// aapt resource value: 0x7f0800a7
+			public const int toolbar_button_60 = 2131230887;
 			
 			// aapt resource value: 0x7f080059
 			public const int tooltip_corner_radius = 2131230809;
@@ -6349,26 +6394,26 @@ namespace CashDrawer.Droid
 			// aapt resource value: 0x7f020055
 			public const int avd_hide_password = 2130837589;
 			
-			// aapt resource value: 0x7f020070
-			public const int avd_hide_password_1 = 2130837616;
-			
 			// aapt resource value: 0x7f020071
-			public const int avd_hide_password_2 = 2130837617;
+			public const int avd_hide_password_1 = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int avd_hide_password_3 = 2130837618;
+			public const int avd_hide_password_2 = 2130837618;
+			
+			// aapt resource value: 0x7f020073
+			public const int avd_hide_password_3 = 2130837619;
 			
 			// aapt resource value: 0x7f020056
 			public const int avd_show_password = 2130837590;
 			
-			// aapt resource value: 0x7f020073
-			public const int avd_show_password_1 = 2130837619;
-			
 			// aapt resource value: 0x7f020074
-			public const int avd_show_password_2 = 2130837620;
+			public const int avd_show_password_1 = 2130837620;
 			
 			// aapt resource value: 0x7f020075
-			public const int avd_show_password_3 = 2130837621;
+			public const int avd_show_password_2 = 2130837621;
+			
+			// aapt resource value: 0x7f020076
+			public const int avd_show_password_3 = 2130837622;
 			
 			// aapt resource value: 0x7f020057
 			public const int design_bottom_navigation_item_background = 2130837591;
@@ -6395,55 +6440,58 @@ namespace CashDrawer.Droid
 			public const int DiagonalLine_45 = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int icon_wallet_512 = 2130837599;
+			public const int history_icon_40 = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int navigation_empty_icon = 2130837600;
+			public const int icon_wallet_512 = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int notification_action_background = 2130837601;
+			public const int navigation_empty_icon = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int notification_bg = 2130837602;
+			public const int notification_action_background = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int notification_bg_low = 2130837603;
+			public const int notification_bg = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int notification_bg_low_normal = 2130837604;
+			public const int notification_bg_low = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int notification_bg_low_pressed = 2130837605;
+			public const int notification_bg_low_normal = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int notification_bg_normal = 2130837606;
+			public const int notification_bg_low_pressed = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int notification_bg_normal_pressed = 2130837607;
+			public const int notification_bg_normal = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int notification_icon_background = 2130837608;
-			
-			// aapt resource value: 0x7f02006e
-			public const int notification_template_icon_bg = 2130837614;
-			
-			// aapt resource value: 0x7f02006f
-			public const int notification_template_icon_low_bg = 2130837615;
+			public const int notification_bg_normal_pressed = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int notification_tile_bg = 2130837609;
+			public const int notification_icon_background = 2130837609;
+			
+			// aapt resource value: 0x7f02006f
+			public const int notification_template_icon_bg = 2130837615;
+			
+			// aapt resource value: 0x7f020070
+			public const int notification_template_icon_low_bg = 2130837616;
 			
 			// aapt resource value: 0x7f02006a
-			public const int notify_panel_notification_icon_bg = 2130837610;
+			public const int notification_tile_bg = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int SplashScreenTransition = 2130837611;
+			public const int notify_panel_notification_icon_bg = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int tooltip_frame_dark = 2130837612;
+			public const int SplashScreenTransition = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int tooltip_frame_light = 2130837613;
+			public const int tooltip_frame_dark = 2130837613;
+			
+			// aapt resource value: 0x7f02006e
+			public const int tooltip_frame_light = 2130837614;
 			
 			static Drawable()
 			{
@@ -6701,6 +6749,9 @@ namespace CashDrawer.Droid
 			// aapt resource value: 0x7f090061
 			public const int image = 2131296353;
 			
+			// aapt resource value: 0x7f0900b9
+			public const int image_button_history = 2131296441;
+			
 			// aapt resource value: 0x7f0900b3
 			public const int image_view_icon_splash_screen_animated = 2131296435;
 			
@@ -6734,14 +6785,14 @@ namespace CashDrawer.Droid
 			// aapt resource value: 0x7f09009c
 			public const int main_frame = 2131296412;
 			
-			// aapt resource value: 0x7f0900bb
-			public const int masked = 2131296443;
+			// aapt resource value: 0x7f0900bc
+			public const int masked = 2131296444;
 			
 			// aapt resource value: 0x7f0900a4
 			public const int media_actions = 2131296420;
 			
-			// aapt resource value: 0x7f0900b9
-			public const int message = 2131296441;
+			// aapt resource value: 0x7f0900ba
+			public const int message = 2131296442;
 			
 			// aapt resource value: 0x7f090033
 			public const int middle = 2131296307;
@@ -7013,8 +7064,8 @@ namespace CashDrawer.Droid
 			// aapt resource value: 0x7f0900b2
 			public const int view_splash_screen_animated_object = 2131296434;
 			
-			// aapt resource value: 0x7f0900ba
-			public const int visible = 2131296442;
+			// aapt resource value: 0x7f0900bb
+			public const int visible = 2131296443;
 			
 			// aapt resource value: 0x7f09003e
 			public const int withText = 2131296318;
@@ -7271,7 +7322,10 @@ namespace CashDrawer.Droid
 			public const int support_simple_spinner_dropdown_item = 2130968639;
 			
 			// aapt resource value: 0x7f040040
-			public const int tooltip = 2130968640;
+			public const int ToolBarHomeLayout = 2130968640;
+			
+			// aapt resource value: 0x7f040041
+			public const int tooltip = 2130968641;
 			
 			static Layout()
 			{
@@ -7467,9 +7521,6 @@ namespace CashDrawer.Droid
 			
 			// aapt resource value: 0x7f0b0180
 			public const int AppTheme = 2131427712;
-			
-			// aapt resource value: 0x7f0b0181
-			public const int AppThemeNoActionBar = 2131427713;
 			
 			// aapt resource value: 0x7f0b009a
 			public const int Base_AlertDialog_AppCompat = 2131427482;
@@ -8329,8 +8380,8 @@ namespace CashDrawer.Droid
 			// aapt resource value: 0x7f0b016e
 			public const int Theme_Design_NoActionBar = 2131427694;
 			
-			// aapt resource value: 0x7f0b0182
-			public const int Theme_Splash = 2131427714;
+			// aapt resource value: 0x7f0b0181
+			public const int Theme_Splash = 2131427713;
 			
 			// aapt resource value: 0x7f0b0107
 			public const int ThemeOverlay_AppCompat = 2131427591;
