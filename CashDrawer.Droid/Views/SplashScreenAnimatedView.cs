@@ -7,17 +7,18 @@ using Android.Widget;
 using CashDrawer.Core.ViewModels;
 using MvvmCross.Droid.Support.V7.AppCompat;
 using System;
-using System.Threading.Tasks;
 
 namespace CashDrawer.Droid.Views
 {
-    [Activity(Label = "SplashScreenAnimatedView", Theme = "@style/AppThemeNoActionBar")]
+    [Activity(Theme = "@style/AppThemeNoActionBar", ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait, NoHistory = true)]
     public class SplashScreenAnimatedView : MvxAppCompatActivity<SplashViewModel>
     {
         #region Variables
-        private View _view;
+        private View _viewAnimated;
+        private ImageView _imageIcon;
         private TransitionDrawable _transition;
         private RelativeLayout _mainLayout;
+        private RelativeLayout _linesContainerLayout;
         #endregion Variables
 
         #region Lifecycle
@@ -27,29 +28,32 @@ namespace CashDrawer.Droid.Views
             SetContentView(Resource.Layout.SplashScreenAnimatedLayout);
             OverridePendingTransition(Android.Resource.Animation.FadeIn, Android.Resource.Animation.FadeOut);
             Initialize();
-            StartAnimation();
         }
         #endregion Lifecycle
 
         #region Methods
         private void Initialize()
         {
-            _view = FindViewById<View>(Resource.Id.view_splash_screen_animated_object);
-            _transition = (TransitionDrawable)_view.Background;
-            _transition.StartTransition(1000);
+            _viewAnimated = FindViewById<View>(Resource.Id.view_splash_screen_animated_object);
+            _imageIcon = FindViewById<ImageView>(Resource.Id.image_view_icon_splash_screen_animated);
             _mainLayout = FindViewById<RelativeLayout>(Resource.Id.relative_layout_splash_screen_animated_main);
-            _view.Animation = AnimationUtils.LoadAnimation(this, Resource.Animation.SplashScreenAnimation);
-            _view.Animation.AnimationEnd += TerminateAnimation;
+            _linesContainerLayout = FindViewById<RelativeLayout>(Resource.Id.relative_layout_lines_container);
+            _transition = (TransitionDrawable)_viewAnimated.Background;
+            _transition.StartTransition(2000);
+            _viewAnimated.Animation = AnimationUtils.LoadAnimation(this, Resource.Animation.SplashScreenAnimation_view);
+            _viewAnimated.Animation.AnimationEnd += TerminateAnimationBackgound;
+            _imageIcon.Animation = AnimationUtils.LoadAnimation(this, Resource.Animation.SplashScreenAnimation_icon);
+            _linesContainerLayout.Animation = AnimationUtils.LoadAnimation(this, Resource.Animation.SplashScreenAnimation_lines);
+            _linesContainerLayout.Animation.AnimationEnd += TerminateAnimationIcon;
         }
 
-        private void StartAnimation()
+        private void TerminateAnimationBackgound(object sender, EventArgs e)
         {
-            Task.Run(() => { _view.Animate(); });
+            _mainLayout.SetBackgroundColor(Android.Graphics.Color.ParseColor("#C4009A"));
         }
 
-        private void TerminateAnimation(object sender, EventArgs e)
+        private void TerminateAnimationIcon(object sender, EventArgs e)
         {
-            _mainLayout.SetBackgroundColor(Android.Graphics.Color.ParseColor("#0000FF"));
             /*
             this.ViewModel.TerminateAnimationCommand.Execute(null);
             */

@@ -4,10 +4,55 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 	<View
-		android:layout_width="300dp"
-		android:layout_height="300dp"
-		android:background="@drawable/splashscreentransition"
 		android:id="@+id/view_splash_screen_animated_object"
+		android:layout_width="20dp"
+		android:layout_height="20dp"
+		android:background="@drawable/splashscreentransition"
 		android:layout_centerInParent="true"
 	/>
+	<ImageView
+		android:id="@+id/image_view_icon_splash_screen_animated"
+		android:layout_width="200dp"
+		android:layout_height="200dp"
+		android:src="@drawable/icon_wallet_512"
+		android:layout_centerInParent = "true"
+	/>
+	<RelativeLayout
+		android:id="@+id/relative_layout_lines_container"
+		android:layout_width="300dp"
+		android:layout_height="300dp"
+		android:layout_centerInParent="true">
+		<View
+			android:id="@+id/view_line_top_left"
+			android:layout_width="80dp"
+			android:layout_height="80dp"
+			android:background="@drawable/diagonalline_45"
+			android:layout_alignParentTop="true"
+			android:layout_alignParentLeft="true"
+		/>
+		<View
+			android:id="@+id/view_line_top_right"
+			android:layout_width="80dp"
+			android:layout_height="80dp"
+			android:background="@drawable/diagonalline_135"
+			android:layout_alignParentTop="true"
+			android:layout_alignParentRight="true"
+		/>
+		<View
+			android:id="@+id/view_line_bottom_left"
+			android:layout_width="80dp"
+			android:layout_height="80dp"
+			android:background="@drawable/diagonalline_135"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentLeft="true"
+		/>
+		<View
+			android:id="@+id/view_line_bottom_right"
+			android:layout_width="80dp"
+			android:layout_height="80dp"
+			android:background="@drawable/diagonalline_45"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentRight="true"
+		/>
+	</RelativeLayout>
 </RelativeLayout>
