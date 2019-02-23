@@ -54,9 +54,7 @@ namespace CashDrawer.Droid.Views
 
         private void TerminateAnimationIcon(object sender, EventArgs e)
         {
-            /*
             this.ViewModel.TerminateAnimationCommand.Execute(null);
-            */
         }
         #endregion Methods
     }
