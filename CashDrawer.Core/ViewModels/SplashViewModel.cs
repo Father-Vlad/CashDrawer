@@ -10,18 +10,11 @@ namespace CashDrawer.Core.ViewModels
         #region Constructors
         public SplashViewModel(IMvxNavigationService navigationService) : base(navigationService)
         {
+            TerminateAnimationCommand = new MvxAsyncCommand(TerminateAnimationAsync);
         }
         #endregion Constructors
 
         #region Lifecycle
-        public override async Task Initialize()
-        {
-            await Task.Run(() =>
-            {
-                base.Initialize();
-                TerminateAnimationCommand = new MvxAsyncCommand(TerminateAnimationAsync);
-            });
-        }
 
         public override async void ViewAppearing()
         {
@@ -40,12 +33,9 @@ namespace CashDrawer.Core.ViewModels
         #region Methods
         private async Task TerminateAnimationAsync()
         {
-            await Task.Run(() =>
-            {
-                TimePresentation.IsFirstPresentation = false;
-                _navigationService.Close(this);
-                _navigationService.Navigate<MainViewModel>();
-            });
+            TimePresentation.IsFirstPresentation = false;
+            await _navigationService.Close(this);
+            await _navigationService.Navigate<MainViewModel>();
         }
         #endregion Methods
     }

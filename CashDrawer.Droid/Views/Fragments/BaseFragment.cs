@@ -1,6 +1,9 @@
 ﻿using Android.Content.Res;
 using Android.OS;
 using Android.Views;
+using Android.Widget;
+using CashDrawer.Droid.Constants;
+using CashDrawer.Droid.Helper;
 using MvvmCross.Droid.Support.V4;
 using MvvmCross.Droid.Support.V7.AppCompat;
 using MvvmCross.Platforms.Android.Binding.BindingContext;
@@ -10,11 +13,17 @@ namespace CashDrawer.Droid.Views.Fragments
 {
     public abstract class BaseFragment : MvxFragment
     {
+        #region Variables
+        protected TextView _tvTitle;
+        #endregion Variables
+
         #region Lifecycle
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             base.OnCreateView(inflater, container, savedInstanceState);
             var view = this.BindingInflate(FragmentId, null);
+            _tvTitle = view.FindViewById<TextView>(Resource.Id.text_view_toolbar_title);
+            Typefaces.SetBold(_tvTitle, Fonts.QUICKSAND_REGULAR);
             return view;
         }
 
@@ -51,6 +60,8 @@ namespace CashDrawer.Droid.Views.Fragments
         {
             base.OnCreate(savedInstanceState);
             Activity.OverridePendingTransition(Android.Resource.Animation.FadeIn, Android.Resource.Animation.FadeOut);
+            
+
         }
         #endregion Lifecycle
 

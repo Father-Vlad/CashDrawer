@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace CashDrawer.Core.Helper
+﻿namespace CashDrawer.Core.Helper
 {
     public class TimePresentation
     {

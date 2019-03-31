@@ -7,7 +7,7 @@ using MvvmCross.Platforms.Android.Presenters.Attributes;
 namespace CashDrawer.Droid.Views
 {
     [MvxActivityPresentation]
-    [Activity]
+    [Activity(Theme = "@style/Theme.Home", ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait, NoHistory = true)]
     public class MainView : MvxAppCompatActivity<MainViewModel>
     {
         protected override void OnCreate(Bundle savedInstanceState)

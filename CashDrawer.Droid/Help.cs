@@ -5,6 +5,9 @@
         #region Variables
         #endregion Variables
 
+        #region Fields
+        #endregion Fields
+
         #region Constructors
         #endregion Constructors
 

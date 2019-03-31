@@ -61,10 +61,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Adapters\HomeRecyclerAdapter.cs" />
+    <Compile Include="Constants\Fonts.cs" />
     <Compile Include="Help.cs" />
+    <Compile Include="Helper\Typefaces.cs" />
     <Compile Include="MainApplication.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\AlertService.cs" />
     <Compile Include="Setup.cs" />
     <Compile Include="SplashScreen.cs" />
     <Compile Include="Views\Fragments\BaseFragment.cs" />
@@ -74,6 +77,10 @@
     <Compile Include="Views\SplashScreenAnimatedView.cs" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidAsset Include="Assets\Fonts\Quicksand\Quicksand-Bold.ttf" />
+    <AndroidAsset Include="Assets\Fonts\Quicksand\Quicksand-Light.ttf" />
+    <AndroidAsset Include="Assets\Fonts\Quicksand\Quicksand-Medium.ttf" />
+    <AndroidAsset Include="Assets\Fonts\Quicksand\Quicksand-Regular.ttf" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Properties\AndroidManifest.xml">
       <SubType>Designer</SubType>
@@ -82,7 +89,6 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\colors.xml" />
-    <AndroidResource Include="Resources\values\ic_launcher_background.xml" />
     <AndroidResource Include="Resources\values\strings.xml" />
     <AndroidResource Include="Resources\values\styles.xml" />
   </ItemGroup>
@@ -96,10 +102,13 @@
     <PackageReference Include="MvvmCross.Droid.Support.V7.RecyclerView">
       <Version>6.2.2</Version>
     </PackageReference>
+    <PackageReference Include="Xamarin.Android.Support.Constraint.Layout">
+      <Version>1.1.2</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="27.0.2.1" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Services\" />
+    <AndroidResource Include="Resources\drawable\Background_Round_25.xml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CashDrawer.Core\CashDrawer.Core.csproj">
@@ -199,6 +208,30 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\history_icon_40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Shadow_Left.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Shadow_Right.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Background_Round_Top_6.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Home_Background.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Background_Red_Dark_Round_25_Shadow_White.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Circle_Gradiented.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\anim\HomeLayout_TotalCash_Animation_Right_circle.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\anim\HomeLayout_TotalCash_Animation_Left_circle.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

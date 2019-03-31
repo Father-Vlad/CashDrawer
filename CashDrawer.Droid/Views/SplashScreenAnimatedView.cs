@@ -49,7 +49,7 @@ namespace CashDrawer.Droid.Views
 
         private void TerminateAnimationBackgound(object sender, EventArgs e)
         {
-            _mainLayout.SetBackgroundColor(Android.Graphics.Color.ParseColor("#C4009A"));
+            _mainLayout.SetBackgroundResource(Resource.Color.colorPrimary);
         }
 
         private void TerminateAnimationIcon(object sender, EventArgs e)
