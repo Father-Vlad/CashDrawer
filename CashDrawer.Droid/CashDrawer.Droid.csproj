@@ -81,6 +81,7 @@
     <AndroidAsset Include="Assets\Fonts\Quicksand\Quicksand-Light.ttf" />
     <AndroidAsset Include="Assets\Fonts\Quicksand\Quicksand-Medium.ttf" />
     <AndroidAsset Include="Assets\Fonts\Quicksand\Quicksand-Regular.ttf" />
+    <AndroidAsset Include="Assets\Fonts\Lobster\Lobster.ttf" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Properties\AndroidManifest.xml">
       <SubType>Designer</SubType>
@@ -194,11 +195,6 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\RecyclerViewItemlayout.axml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\layout\ToolBarHomeLayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
@@ -216,7 +212,7 @@
     <AndroidResource Include="Resources\drawable\Shadow_Right.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Background_Round_Top_6.xml" />
+    <AndroidResource Include="Resources\drawable\Background_Round_Top_6_White.xml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\Home_Background.xml" />
@@ -232,6 +228,14 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\anim\HomeLayout_TotalCash_Animation_Left_circle.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\home_recycler_item.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Circle_Stroke_3.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

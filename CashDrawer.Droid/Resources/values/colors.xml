@@ -4,4 +4,5 @@
   <color name="colorPrimaryDark">#000000</color>
   <color name="colorSplashScreenBackground">#FFFFFF</color>
   <color name="colorLightGreen">#35DA49</color>
+  <color name="colorSeparatorGrey">#E3E3E3</color>
 </resources>

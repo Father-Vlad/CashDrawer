@@ -5477,44 +5477,44 @@ namespace CashDrawer.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0d004b
-			public const int abc_background_cache_hint_selector_material_dark = 2131558475;
-			
 			// aapt resource value: 0x7f0d004c
-			public const int abc_background_cache_hint_selector_material_light = 2131558476;
+			public const int abc_background_cache_hint_selector_material_dark = 2131558476;
 			
 			// aapt resource value: 0x7f0d004d
-			public const int abc_btn_colored_borderless_text_material = 2131558477;
+			public const int abc_background_cache_hint_selector_material_light = 2131558477;
 			
 			// aapt resource value: 0x7f0d004e
-			public const int abc_btn_colored_text_material = 2131558478;
+			public const int abc_btn_colored_borderless_text_material = 2131558478;
 			
 			// aapt resource value: 0x7f0d004f
-			public const int abc_color_highlight_material = 2131558479;
+			public const int abc_btn_colored_text_material = 2131558479;
 			
 			// aapt resource value: 0x7f0d0050
-			public const int abc_hint_foreground_material_dark = 2131558480;
+			public const int abc_color_highlight_material = 2131558480;
 			
 			// aapt resource value: 0x7f0d0051
-			public const int abc_hint_foreground_material_light = 2131558481;
+			public const int abc_hint_foreground_material_dark = 2131558481;
+			
+			// aapt resource value: 0x7f0d0052
+			public const int abc_hint_foreground_material_light = 2131558482;
 			
 			// aapt resource value: 0x7f0d0000
 			public const int abc_input_method_navigation_guard = 2131558400;
 			
-			// aapt resource value: 0x7f0d0052
-			public const int abc_primary_text_disable_only_material_dark = 2131558482;
-			
 			// aapt resource value: 0x7f0d0053
-			public const int abc_primary_text_disable_only_material_light = 2131558483;
+			public const int abc_primary_text_disable_only_material_dark = 2131558483;
 			
 			// aapt resource value: 0x7f0d0054
-			public const int abc_primary_text_material_dark = 2131558484;
+			public const int abc_primary_text_disable_only_material_light = 2131558484;
 			
 			// aapt resource value: 0x7f0d0055
-			public const int abc_primary_text_material_light = 2131558485;
+			public const int abc_primary_text_material_dark = 2131558485;
 			
 			// aapt resource value: 0x7f0d0056
-			public const int abc_search_url_text = 2131558486;
+			public const int abc_primary_text_material_light = 2131558486;
+			
+			// aapt resource value: 0x7f0d0057
+			public const int abc_search_url_text = 2131558487;
 			
 			// aapt resource value: 0x7f0d0001
 			public const int abc_search_url_text_normal = 2131558401;
@@ -5525,29 +5525,29 @@ namespace CashDrawer.Droid
 			// aapt resource value: 0x7f0d0003
 			public const int abc_search_url_text_selected = 2131558403;
 			
-			// aapt resource value: 0x7f0d0057
-			public const int abc_secondary_text_material_dark = 2131558487;
-			
 			// aapt resource value: 0x7f0d0058
-			public const int abc_secondary_text_material_light = 2131558488;
+			public const int abc_secondary_text_material_dark = 2131558488;
 			
 			// aapt resource value: 0x7f0d0059
-			public const int abc_tint_btn_checkable = 2131558489;
+			public const int abc_secondary_text_material_light = 2131558489;
 			
 			// aapt resource value: 0x7f0d005a
-			public const int abc_tint_default = 2131558490;
+			public const int abc_tint_btn_checkable = 2131558490;
 			
 			// aapt resource value: 0x7f0d005b
-			public const int abc_tint_edittext = 2131558491;
+			public const int abc_tint_default = 2131558491;
 			
 			// aapt resource value: 0x7f0d005c
-			public const int abc_tint_seek_thumb = 2131558492;
+			public const int abc_tint_edittext = 2131558492;
 			
 			// aapt resource value: 0x7f0d005d
-			public const int abc_tint_spinner = 2131558493;
+			public const int abc_tint_seek_thumb = 2131558493;
 			
 			// aapt resource value: 0x7f0d005e
-			public const int abc_tint_switch_track = 2131558494;
+			public const int abc_tint_spinner = 2131558494;
+			
+			// aapt resource value: 0x7f0d005f
+			public const int abc_tint_switch_track = 2131558495;
 			
 			// aapt resource value: 0x7f0d0004
 			public const int accent_material_dark = 2131558404;
@@ -5600,14 +5600,17 @@ namespace CashDrawer.Droid
 			// aapt resource value: 0x7f0d0048
 			public const int colorPrimaryDark = 2131558472;
 			
+			// aapt resource value: 0x7f0d004b
+			public const int colorSeparatorGrey = 2131558475;
+			
 			// aapt resource value: 0x7f0d0049
 			public const int colorSplashScreenBackground = 2131558473;
 			
 			// aapt resource value: 0x7f0d003c
 			public const int design_bottom_navigation_shadow_color = 2131558460;
 			
-			// aapt resource value: 0x7f0d005f
-			public const int design_error = 2131558495;
+			// aapt resource value: 0x7f0d0060
+			public const int design_error = 2131558496;
 			
 			// aapt resource value: 0x7f0d003d
 			public const int design_fab_shadow_end_color = 2131558461;
@@ -5633,8 +5636,8 @@ namespace CashDrawer.Droid
 			// aapt resource value: 0x7f0d0044
 			public const int design_snackbar_background_color = 2131558468;
 			
-			// aapt resource value: 0x7f0d0060
-			public const int design_tint_password_toggle = 2131558496;
+			// aapt resource value: 0x7f0d0061
+			public const int design_tint_password_toggle = 2131558497;
 			
 			// aapt resource value: 0x7f0d0012
 			public const int dim_foreground_disabled_material_dark = 2131558418;
@@ -5756,11 +5759,11 @@ namespace CashDrawer.Droid
 			// aapt resource value: 0x7f0d0036
 			public const int switch_thumb_disabled_material_light = 2131558454;
 			
-			// aapt resource value: 0x7f0d0061
-			public const int switch_thumb_material_dark = 2131558497;
-			
 			// aapt resource value: 0x7f0d0062
-			public const int switch_thumb_material_light = 2131558498;
+			public const int switch_thumb_material_dark = 2131558498;
+			
+			// aapt resource value: 0x7f0d0063
+			public const int switch_thumb_material_light = 2131558499;
 			
 			// aapt resource value: 0x7f0d0037
 			public const int switch_thumb_normal_material_dark = 2131558455;
@@ -6568,26 +6571,26 @@ namespace CashDrawer.Droid
 			// aapt resource value: 0x7f020055
 			public const int avd_hide_password = 2130837589;
 			
-			// aapt resource value: 0x7f020078
-			public const int avd_hide_password_1 = 2130837624;
-			
 			// aapt resource value: 0x7f020079
-			public const int avd_hide_password_2 = 2130837625;
+			public const int avd_hide_password_1 = 2130837625;
 			
 			// aapt resource value: 0x7f02007a
-			public const int avd_hide_password_3 = 2130837626;
+			public const int avd_hide_password_2 = 2130837626;
+			
+			// aapt resource value: 0x7f02007b
+			public const int avd_hide_password_3 = 2130837627;
 			
 			// aapt resource value: 0x7f020056
 			public const int avd_show_password = 2130837590;
 			
-			// aapt resource value: 0x7f02007b
-			public const int avd_show_password_1 = 2130837627;
-			
 			// aapt resource value: 0x7f02007c
-			public const int avd_show_password_2 = 2130837628;
+			public const int avd_show_password_1 = 2130837628;
 			
 			// aapt resource value: 0x7f02007d
-			public const int avd_show_password_3 = 2130837629;
+			public const int avd_show_password_2 = 2130837629;
+			
+			// aapt resource value: 0x7f02007e
+			public const int avd_show_password_3 = 2130837630;
 			
 			// aapt resource value: 0x7f020057
 			public const int Background_Red_Dark_Round_25_Shadow_White = 2130837591;
@@ -6596,97 +6599,100 @@ namespace CashDrawer.Droid
 			public const int Background_Round_25 = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int Background_Round_Top_6 = 2130837593;
+			public const int Background_Round_Top_6_White = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
 			public const int Circle_Gradiented = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int design_bottom_navigation_item_background = 2130837595;
+			public const int Circle_Stroke_3 = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int design_fab_background = 2130837596;
+			public const int design_bottom_navigation_item_background = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int design_ic_visibility = 2130837597;
+			public const int design_fab_background = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int design_ic_visibility_off = 2130837598;
+			public const int design_ic_visibility = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int design_password_eye = 2130837599;
+			public const int design_ic_visibility_off = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int design_snackbar_background = 2130837600;
+			public const int design_password_eye = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int DiagonalLine_135 = 2130837601;
+			public const int design_snackbar_background = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int DiagonalLine_45 = 2130837602;
+			public const int DiagonalLine_135 = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int history_icon_40 = 2130837603;
+			public const int DiagonalLine_45 = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int Home_Background = 2130837604;
+			public const int history_icon_40 = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int icon_wallet_512 = 2130837605;
+			public const int Home_Background = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int navigation_empty_icon = 2130837606;
+			public const int icon_wallet_512 = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int notification_action_background = 2130837607;
+			public const int navigation_empty_icon = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int notification_bg = 2130837608;
+			public const int notification_action_background = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int notification_bg_low = 2130837609;
+			public const int notification_bg = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int notification_bg_low_normal = 2130837610;
+			public const int notification_bg_low = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int notification_bg_low_pressed = 2130837611;
+			public const int notification_bg_low_normal = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int notification_bg_normal = 2130837612;
+			public const int notification_bg_low_pressed = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int notification_bg_normal_pressed = 2130837613;
+			public const int notification_bg_normal = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int notification_icon_background = 2130837614;
-			
-			// aapt resource value: 0x7f020076
-			public const int notification_template_icon_bg = 2130837622;
-			
-			// aapt resource value: 0x7f020077
-			public const int notification_template_icon_low_bg = 2130837623;
+			public const int notification_bg_normal_pressed = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int notification_tile_bg = 2130837615;
+			public const int notification_icon_background = 2130837615;
+			
+			// aapt resource value: 0x7f020077
+			public const int notification_template_icon_bg = 2130837623;
+			
+			// aapt resource value: 0x7f020078
+			public const int notification_template_icon_low_bg = 2130837624;
 			
 			// aapt resource value: 0x7f020070
-			public const int notify_panel_notification_icon_bg = 2130837616;
+			public const int notification_tile_bg = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int Shadow_Left = 2130837617;
+			public const int notify_panel_notification_icon_bg = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int Shadow_Right = 2130837618;
+			public const int Shadow_Left = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int SplashScreenTransition = 2130837619;
+			public const int Shadow_Right = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int tooltip_frame_dark = 2130837620;
+			public const int SplashScreenTransition = 2130837620;
 			
 			// aapt resource value: 0x7f020075
-			public const int tooltip_frame_light = 2130837621;
+			public const int tooltip_frame_dark = 2130837621;
+			
+			// aapt resource value: 0x7f020076
+			public const int tooltip_frame_light = 2130837622;
 			
 			static Drawable()
 			{
@@ -6725,8 +6731,8 @@ namespace CashDrawer.Droid
 			// aapt resource value: 0x7f090039
 			public const int SYM = 2131296313;
 			
-			// aapt resource value: 0x7f0900c0
-			public const int action0 = 2131296448;
+			// aapt resource value: 0x7f0900c8
+			public const int action0 = 2131296456;
 			
 			// aapt resource value: 0x7f09008b
 			public const int action_bar = 2131296395;
@@ -6749,17 +6755,17 @@ namespace CashDrawer.Droid
 			// aapt resource value: 0x7f090069
 			public const int action_bar_title = 2131296361;
 			
-			// aapt resource value: 0x7f0900bd
-			public const int action_container = 2131296445;
+			// aapt resource value: 0x7f0900c5
+			public const int action_container = 2131296453;
 			
 			// aapt resource value: 0x7f09008c
 			public const int action_context_bar = 2131296396;
 			
-			// aapt resource value: 0x7f0900c4
-			public const int action_divider = 2131296452;
+			// aapt resource value: 0x7f0900cc
+			public const int action_divider = 2131296460;
 			
-			// aapt resource value: 0x7f0900be
-			public const int action_image = 2131296446;
+			// aapt resource value: 0x7f0900c6
+			public const int action_image = 2131296454;
 			
 			// aapt resource value: 0x7f090003
 			public const int action_menu_divider = 2131296259;
@@ -6776,11 +6782,11 @@ namespace CashDrawer.Droid
 			// aapt resource value: 0x7f09006b
 			public const int action_mode_close_button = 2131296363;
 			
-			// aapt resource value: 0x7f0900bf
-			public const int action_text = 2131296447;
+			// aapt resource value: 0x7f0900c7
+			public const int action_text = 2131296455;
 			
-			// aapt resource value: 0x7f0900cd
-			public const int actions = 2131296461;
+			// aapt resource value: 0x7f0900d5
+			public const int actions = 2131296469;
 			
 			// aapt resource value: 0x7f09006c
 			public const int activity_chooser_view_content = 2131296364;
@@ -6818,8 +6824,8 @@ namespace CashDrawer.Droid
 			// aapt resource value: 0x7f090072
 			public const int buttonPanel = 2131296370;
 			
-			// aapt resource value: 0x7f0900c1
-			public const int cancel_action = 2131296449;
+			// aapt resource value: 0x7f0900c9
+			public const int cancel_action = 2131296457;
 			
 			// aapt resource value: 0x7f090047
 			public const int center = 2131296327;
@@ -6836,8 +6842,8 @@ namespace CashDrawer.Droid
 			// aapt resource value: 0x7f090082
 			public const int checkbox = 2131296386;
 			
-			// aapt resource value: 0x7f0900c9
-			public const int chronometer = 2131296457;
+			// aapt resource value: 0x7f0900d1
+			public const int chronometer = 2131296465;
 			
 			// aapt resource value: 0x7f090050
 			public const int clip_horizontal = 2131296336;
@@ -6848,11 +6854,17 @@ namespace CashDrawer.Droid
 			// aapt resource value: 0x7f09003b
 			public const int collapseActionView = 2131296315;
 			
-			// aapt resource value: 0x7f0900b1
-			public const int constraintlayout_homeLayout_totalcash_inside = 2131296433;
+			// aapt resource value: 0x7f0900b0
+			public const int constraintlayout_homeLayout_main = 2131296432;
+			
+			// aapt resource value: 0x7f0900b9
+			public const int constraintlayout_homeLayout_totalcash_inside = 2131296441;
 			
 			// aapt resource value: 0x7f0900a8
-			public const int constraintlayout_toolbar_main = 2131296424;
+			public const int constraintlayout_homeRecyclerItem_main = 2131296424;
+			
+			// aapt resource value: 0x7f0900e0
+			public const int constraintlayout_toolbar_main = 2131296480;
 			
 			// aapt resource value: 0x7f09009c
 			public const int container = 2131296412;
@@ -6860,8 +6872,8 @@ namespace CashDrawer.Droid
 			// aapt resource value: 0x7f090075
 			public const int contentPanel = 2131296373;
 			
-			// aapt resource value: 0x7f0900bc
-			public const int content_frame = 2131296444;
+			// aapt resource value: 0x7f0900c4
+			public const int content_frame = 2131296452;
 			
 			// aapt resource value: 0x7f09009d
 			public const int coordinator = 2131296413;
@@ -6908,8 +6920,8 @@ namespace CashDrawer.Droid
 			// aapt resource value: 0x7f090032
 			public const int end = 2131296306;
 			
-			// aapt resource value: 0x7f0900cf
-			public const int end_padder = 2131296463;
+			// aapt resource value: 0x7f0900d7
+			public const int end_padder = 2131296471;
 			
 			// aapt resource value: 0x7f090041
 			public const int enterAlways = 2131296321;
@@ -6947,35 +6959,47 @@ namespace CashDrawer.Droid
 			// aapt resource value: 0x7f090058
 			public const int gone = 2131296344;
 			
-			// aapt resource value: 0x7f0900ac
-			public const int guideline_homeLayout_margin_left_shadow_end = 2131296428;
+			// aapt resource value: 0x7f0900b4
+			public const int guideline_homeLayout_margin_left_shadow_end = 2131296436;
 			
-			// aapt resource value: 0x7f0900ab
-			public const int guideline_homeLayout_margin_left_shadow_start = 2131296427;
-			
-			// aapt resource value: 0x7f0900ae
-			public const int guideline_homeLayout_margin_right_shadow_end = 2131296430;
-			
-			// aapt resource value: 0x7f0900ad
-			public const int guideline_homeLayout_margin_right_shadow_start = 2131296429;
-			
-			// aapt resource value: 0x7f0900aa
-			public const int guideline_homeLayout_margin_top_recycler = 2131296426;
-			
-			// aapt resource value: 0x7f0900a9
-			public const int guideline_homeLayout_margin_top_totalCash = 2131296425;
-			
-			// aapt resource value: 0x7f0900b5
-			public const int guideline_homeLayout_totalcash_margin_bottom = 2131296437;
+			// aapt resource value: 0x7f0900b3
+			public const int guideline_homeLayout_margin_left_shadow_start = 2131296435;
 			
 			// aapt resource value: 0x7f0900b6
-			public const int guideline_homeLayout_totalcash_margin_left = 2131296438;
+			public const int guideline_homeLayout_margin_right_shadow_end = 2131296438;
 			
-			// aapt resource value: 0x7f0900b7
-			public const int guideline_homeLayout_totalcash_margin_right = 2131296439;
+			// aapt resource value: 0x7f0900b5
+			public const int guideline_homeLayout_margin_right_shadow_start = 2131296437;
 			
-			// aapt resource value: 0x7f0900b4
-			public const int guideline_homeLayout_totalcash_margin_top = 2131296436;
+			// aapt resource value: 0x7f0900b2
+			public const int guideline_homeLayout_margin_top_recycler = 2131296434;
+			
+			// aapt resource value: 0x7f0900b1
+			public const int guideline_homeLayout_margin_top_totalCash = 2131296433;
+			
+			// aapt resource value: 0x7f0900bd
+			public const int guideline_homeLayout_totalcash_margin_bottom = 2131296445;
+			
+			// aapt resource value: 0x7f0900be
+			public const int guideline_homeLayout_totalcash_margin_left = 2131296446;
+			
+			// aapt resource value: 0x7f0900bf
+			public const int guideline_homeLayout_totalcash_margin_right = 2131296447;
+			
+			// aapt resource value: 0x7f0900bc
+			public const int guideline_homeLayout_totalcash_margin_top = 2131296444;
+			
+			// aapt resource value: 0x7f0900ac
+			public const int guideline_homeRecyclerItem_margin_bottom = 2131296428;
+			
+			// aapt resource value: 0x7f0900a9
+			public const int guideline_homeRecyclerItem_margin_left = 2131296425;
+			
+			// aapt resource value: 0x7f0900aa
+			public const int guideline_homeRecyclerItem_margin_right = 2131296426;
+			
+			// aapt resource value: 0x7f0900ab
+			public const int guideline_homeRecyclerItem_margin_top = 2131296427;
 			
 			// aapt resource value: 0x7f090005
 			public const int home = 2131296261;
@@ -6986,8 +7010,8 @@ namespace CashDrawer.Droid
 			// aapt resource value: 0x7f090071
 			public const int icon = 2131296369;
 			
-			// aapt resource value: 0x7f0900ce
-			public const int icon_group = 2131296462;
+			// aapt resource value: 0x7f0900d6
+			public const int icon_group = 2131296470;
 			
 			// aapt resource value: 0x7f09003c
 			public const int ifRoom = 2131296316;
@@ -6995,20 +7019,23 @@ namespace CashDrawer.Droid
 			// aapt resource value: 0x7f09006e
 			public const int image = 2131296366;
 			
-			// aapt resource value: 0x7f0900d9
-			public const int image_button_history = 2131296473;
+			// aapt resource value: 0x7f0900e2
+			public const int image_button_history = 2131296482;
 			
-			// aapt resource value: 0x7f0900b9
-			public const int image_view_homaLayout_circle_bottom = 2131296441;
+			// aapt resource value: 0x7f0900c1
+			public const int image_view_homaLayout_circle_bottom = 2131296449;
 			
-			// aapt resource value: 0x7f0900b8
-			public const int image_view_homaLayout_circle_top = 2131296440;
+			// aapt resource value: 0x7f0900c0
+			public const int image_view_homaLayout_circle_top = 2131296448;
+			
+			// aapt resource value: 0x7f0900ae
+			public const int image_view_homeRecyclerItem_circle = 2131296430;
+			
+			// aapt resource value: 0x7f0900da
+			public const int image_view_icon_splash_screen_animated = 2131296474;
 			
 			// aapt resource value: 0x7f0900d2
-			public const int image_view_icon_splash_screen_animated = 2131296466;
-			
-			// aapt resource value: 0x7f0900ca
-			public const int info = 2131296458;
+			public const int info = 2131296466;
 			
 			// aapt resource value: 0x7f090059
 			public const int invisible = 2131296345;
@@ -7037,17 +7064,17 @@ namespace CashDrawer.Droid
 			// aapt resource value: 0x7f090070
 			public const int list_item = 2131296368;
 			
-			// aapt resource value: 0x7f0900bb
-			public const int main_frame = 2131296443;
-			
-			// aapt resource value: 0x7f0900dc
-			public const int masked = 2131296476;
-			
 			// aapt resource value: 0x7f0900c3
-			public const int media_actions = 2131296451;
+			public const int main_frame = 2131296451;
 			
-			// aapt resource value: 0x7f0900da
-			public const int message = 2131296474;
+			// aapt resource value: 0x7f0900e5
+			public const int masked = 2131296485;
+			
+			// aapt resource value: 0x7f0900cb
+			public const int media_actions = 2131296459;
+			
+			// aapt resource value: 0x7f0900e3
+			public const int message = 2131296483;
 			
 			// aapt resource value: 0x7f090033
 			public const int middle = 2131296307;
@@ -7070,14 +7097,14 @@ namespace CashDrawer.Droid
 			// aapt resource value: 0x7f090020
 			public const int normal = 2131296288;
 			
-			// aapt resource value: 0x7f0900cc
-			public const int notification_background = 2131296460;
+			// aapt resource value: 0x7f0900d4
+			public const int notification_background = 2131296468;
 			
-			// aapt resource value: 0x7f0900c6
-			public const int notification_main_column = 2131296454;
+			// aapt resource value: 0x7f0900ce
+			public const int notification_main_column = 2131296462;
 			
-			// aapt resource value: 0x7f0900c5
-			public const int notification_main_column_container = 2131296453;
+			// aapt resource value: 0x7f0900cd
+			public const int notification_main_column_container = 2131296461;
 			
 			// aapt resource value: 0x7f09005e
 			public const int packed = 2131296350;
@@ -7109,29 +7136,32 @@ namespace CashDrawer.Droid
 			// aapt resource value: 0x7f090084
 			public const int radio = 2131296388;
 			
-			// aapt resource value: 0x7f0900ba
-			public const int recycler_view_main = 2131296442;
+			// aapt resource value: 0x7f0900c2
+			public const int recycler_view_main = 2131296450;
 			
-			// aapt resource value: 0x7f0900af
-			public const int relative_layout_homeLayout_toolbar = 2131296431;
+			// aapt resource value: 0x7f0900b7
+			public const int relative_layout_homeLayout_toolbar = 2131296439;
 			
-			// aapt resource value: 0x7f0900b0
-			public const int relative_layout_homeLayout_totalcash = 2131296432;
+			// aapt resource value: 0x7f0900b8
+			public const int relative_layout_homeLayout_totalcash = 2131296440;
 			
-			// aapt resource value: 0x7f0900d3
-			public const int relative_layout_lines_container = 2131296467;
+			// aapt resource value: 0x7f0900ad
+			public const int relative_layout_homeRecyclerItem_circle = 2131296429;
 			
-			// aapt resource value: 0x7f0900d0
-			public const int relative_layout_splash_screen_animated_main = 2131296464;
+			// aapt resource value: 0x7f0900db
+			public const int relative_layout_lines_container = 2131296475;
+			
+			// aapt resource value: 0x7f0900d8
+			public const int relative_layout_splash_screen_animated_main = 2131296472;
 			
 			// aapt resource value: 0x7f09004c
 			public const int right = 2131296332;
 			
-			// aapt resource value: 0x7f0900cb
-			public const int right_icon = 2131296459;
+			// aapt resource value: 0x7f0900d3
+			public const int right_icon = 2131296467;
 			
-			// aapt resource value: 0x7f0900c7
-			public const int right_side = 2131296455;
+			// aapt resource value: 0x7f0900cf
+			public const int right_side = 2131296463;
 			
 			// aapt resource value: 0x7f09000c
 			public const int save_image_matrix = 2131296268;
@@ -7244,8 +7274,8 @@ namespace CashDrawer.Droid
 			// aapt resource value: 0x7f09004d
 			public const int start = 2131296333;
 			
-			// aapt resource value: 0x7f0900c2
-			public const int status_bar_latest_event_content = 2131296450;
+			// aapt resource value: 0x7f0900ca
+			public const int status_bar_latest_event_content = 2131296458;
 			
 			// aapt resource value: 0x7f090085
 			public const int submenuarrow = 2131296389;
@@ -7274,14 +7304,17 @@ namespace CashDrawer.Droid
 			// aapt resource value: 0x7f0900a7
 			public const int text_input_password_toggle = 2131296423;
 			
-			// aapt resource value: 0x7f0900b2
-			public const int text_view_homeLayout_totalcash = 2131296434;
+			// aapt resource value: 0x7f0900ba
+			public const int text_view_homeLayout_totalcash = 2131296442;
 			
-			// aapt resource value: 0x7f0900b3
-			public const int text_view_homeLayout_totalcash_valuta = 2131296435;
+			// aapt resource value: 0x7f0900bb
+			public const int text_view_homeLayout_totalcash_valuta = 2131296443;
 			
-			// aapt resource value: 0x7f0900d8
-			public const int text_view_toolbar_title = 2131296472;
+			// aapt resource value: 0x7f0900af
+			public const int text_view_homeRecyclerItem_circle = 2131296431;
+			
+			// aapt resource value: 0x7f0900e1
+			public const int text_view_toolbar_title = 2131296481;
 			
 			// aapt resource value: 0x7f090014
 			public const int textinput_counter = 2131296276;
@@ -7289,8 +7322,8 @@ namespace CashDrawer.Droid
 			// aapt resource value: 0x7f090015
 			public const int textinput_error = 2131296277;
 			
-			// aapt resource value: 0x7f0900c8
-			public const int time = 2131296456;
+			// aapt resource value: 0x7f0900d0
+			public const int time = 2131296464;
 			
 			// aapt resource value: 0x7f09001c
 			public const int title = 2131296284;
@@ -7334,26 +7367,26 @@ namespace CashDrawer.Droid
 			// aapt resource value: 0x7f090028
 			public const int useLogo = 2131296296;
 			
-			// aapt resource value: 0x7f0900d6
-			public const int view_line_bottom_left = 2131296470;
+			// aapt resource value: 0x7f0900de
+			public const int view_line_bottom_left = 2131296478;
 			
-			// aapt resource value: 0x7f0900d7
-			public const int view_line_bottom_right = 2131296471;
+			// aapt resource value: 0x7f0900df
+			public const int view_line_bottom_right = 2131296479;
 			
-			// aapt resource value: 0x7f0900d4
-			public const int view_line_top_left = 2131296468;
+			// aapt resource value: 0x7f0900dc
+			public const int view_line_top_left = 2131296476;
 			
-			// aapt resource value: 0x7f0900d5
-			public const int view_line_top_right = 2131296469;
+			// aapt resource value: 0x7f0900dd
+			public const int view_line_top_right = 2131296477;
 			
 			// aapt resource value: 0x7f090016
 			public const int view_offset_helper = 2131296278;
 			
-			// aapt resource value: 0x7f0900d1
-			public const int view_splash_screen_animated_object = 2131296465;
+			// aapt resource value: 0x7f0900d9
+			public const int view_splash_screen_animated_object = 2131296473;
 			
-			// aapt resource value: 0x7f0900db
-			public const int visible = 2131296475;
+			// aapt resource value: 0x7f0900e4
+			public const int visible = 2131296484;
 			
 			// aapt resource value: 0x7f09003e
 			public const int withText = 2131296318;
@@ -7541,58 +7574,58 @@ namespace CashDrawer.Droid
 			public const int design_text_input_password_icon = 2130968615;
 			
 			// aapt resource value: 0x7f040028
-			public const int HomeLayout = 2130968616;
+			public const int home_recycler_item = 2130968616;
 			
 			// aapt resource value: 0x7f040029
-			public const int MainLayout = 2130968617;
+			public const int HomeLayout = 2130968617;
 			
 			// aapt resource value: 0x7f04002a
-			public const int notification_action = 2130968618;
+			public const int MainLayout = 2130968618;
 			
 			// aapt resource value: 0x7f04002b
-			public const int notification_action_tombstone = 2130968619;
+			public const int notification_action = 2130968619;
 			
 			// aapt resource value: 0x7f04002c
-			public const int notification_media_action = 2130968620;
+			public const int notification_action_tombstone = 2130968620;
 			
 			// aapt resource value: 0x7f04002d
-			public const int notification_media_cancel_action = 2130968621;
+			public const int notification_media_action = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int notification_template_big_media = 2130968622;
+			public const int notification_media_cancel_action = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public const int notification_template_big_media_custom = 2130968623;
+			public const int notification_template_big_media = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public const int notification_template_big_media_narrow = 2130968624;
+			public const int notification_template_big_media_custom = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public const int notification_template_big_media_narrow_custom = 2130968625;
+			public const int notification_template_big_media_narrow = 2130968625;
 			
 			// aapt resource value: 0x7f040032
-			public const int notification_template_custom_big = 2130968626;
+			public const int notification_template_big_media_narrow_custom = 2130968626;
 			
 			// aapt resource value: 0x7f040033
-			public const int notification_template_icon_group = 2130968627;
+			public const int notification_template_custom_big = 2130968627;
 			
 			// aapt resource value: 0x7f040034
-			public const int notification_template_lines_media = 2130968628;
+			public const int notification_template_icon_group = 2130968628;
 			
 			// aapt resource value: 0x7f040035
-			public const int notification_template_media = 2130968629;
+			public const int notification_template_lines_media = 2130968629;
 			
 			// aapt resource value: 0x7f040036
-			public const int notification_template_media_custom = 2130968630;
+			public const int notification_template_media = 2130968630;
 			
 			// aapt resource value: 0x7f040037
-			public const int notification_template_part_chronometer = 2130968631;
+			public const int notification_template_media_custom = 2130968631;
 			
 			// aapt resource value: 0x7f040038
-			public const int notification_template_part_time = 2130968632;
+			public const int notification_template_part_chronometer = 2130968632;
 			
 			// aapt resource value: 0x7f040039
-			public const int RecyclerViewItemlayout = 2130968633;
+			public const int notification_template_part_time = 2130968633;
 			
 			// aapt resource value: 0x7f04003a
 			public const int select_dialog_item_material = 2130968634;

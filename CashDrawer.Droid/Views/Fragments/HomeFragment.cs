@@ -1,5 +1,4 @@
-﻿using System;
-using Android.OS;
+﻿using Android.OS;
 using Android.Runtime;
 using Android.Support.V7.Widget;
 using Android.Views;
@@ -48,6 +47,13 @@ namespace CashDrawer.Droid.Views.Fragments
             SetupAdapters();
             return view;
         }
+
+        public override void OnDestroyView()
+        {
+            base.OnDestroyView();
+            _ivCashCircleTop.ClearAnimation();
+            _ivCashCircleBottom.ClearAnimation();
+        }
         #endregion Lifecycle
 
         #region Methods
@@ -55,7 +61,6 @@ namespace CashDrawer.Droid.Views.Fragments
         {
             _ivCashCircleTop.StartAnimation(_translateXtoRightAnimation);
             _ivCashCircleBottom.StartAnimation(_translateXtoLeftAnimation);
-
         }
 
         private void SetupFonts()
@@ -70,6 +75,8 @@ namespace CashDrawer.Droid.Views.Fragments
             _recyclerAdapter = new HomeRecyclerAdapter((IMvxAndroidBindingContext)BindingContext);
             _recyclerView.SetLayoutManager(_layoutManager);
             _recyclerView.Adapter = _recyclerAdapter;
+            _recyclerView.VerticalScrollBarEnabled = false;
+            _recyclerView.HorizontalScrollBarEnabled = false;
         }
         #endregion Methods
 

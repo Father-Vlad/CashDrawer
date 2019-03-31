@@ -8,6 +8,10 @@ namespace CashDrawer.Droid.Adapters
 {
     public class HomeRecyclerAdapter : MvxRecyclerAdapter
     {
+        #region Variables
+        private int _cellHeight;
+        #endregion Variables
+
         #region Constructors
         public HomeRecyclerAdapter(IMvxAndroidBindingContext bindingContext) : base(bindingContext)
         {
@@ -19,6 +23,7 @@ namespace CashDrawer.Droid.Adapters
         {
             var itemBindingContext = new MvxAndroidBindingContext(parent.Context, this.BindingContext.LayoutInflaterHolder);
             var view = this.InflateViewForHolder(parent, viewType, itemBindingContext);
+            view.LayoutParameters.Height = parent.MeasuredHeight / 5;
             return new HomeRecyclerHolder(view, itemBindingContext)
             {
                 Click = ItemClick,
@@ -26,6 +31,5 @@ namespace CashDrawer.Droid.Adapters
             };
         }
         #endregion Overrides
-
     }
 }
