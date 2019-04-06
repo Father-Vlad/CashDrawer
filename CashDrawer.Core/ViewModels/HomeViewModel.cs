@@ -33,35 +33,17 @@ namespace CashDrawer.Core.ViewModels
             TitleText = _titleText;
             ToolbarButtonCommand = new MvxAsyncCommand(async () => await _navigationService.Close(this));
             Wallets = new MvxObservableCollection<Wallet>();
-            Wallets.Add(new Wallet("П"));
-            Wallets.Add(new Wallet("Р"));
-            Wallets.Add(new Wallet("И"));
-            Wallets.Add(new Wallet("П"));
-            Wallets.Add(new Wallet("Р"));
-            Wallets.Add(new Wallet("И"));
-            Wallets.Add(new Wallet("П"));
-            Wallets.Add(new Wallet("Р"));
-            Wallets.Add(new Wallet("И"));
-            Wallets.Add(new Wallet("П"));
-            Wallets.Add(new Wallet("Р"));
-            Wallets.Add(new Wallet("И"));
-            Wallets.Add(new Wallet("П"));
-            Wallets.Add(new Wallet("Р"));
-            Wallets.Add(new Wallet("И"));
-            Wallets.Add(new Wallet("П"));
-            Wallets.Add(new Wallet("Р"));
-            Wallets.Add(new Wallet("И"));
-            Wallets.Add(new Wallet("П"));
-            Wallets.Add(new Wallet("Р"));
-            Wallets.Add(new Wallet("И"));
-            Wallets.Add(new Wallet("П"));
-            Wallets.Add(new Wallet("Р"));
-            Wallets.Add(new Wallet("И"));
+            Wallets.Add(new Wallet("П", 20, "100999.88"));
+            Wallets.Add(new Wallet("Р", 16, "160"));
+            Wallets.Add(new Wallet("И", 3, "30"));
+            Wallets.Add(new Wallet("П", 15, "150"));
+            Wallets.Add(new Wallet("Р", 9, "90"));
+            Wallets.Add(new Wallet("И", 37, "370"));
             IsRefreshLayoutRefreshing = false;
             LookDescriptionCommand = new MvxAsyncCommand<Wallet>(async (wallet) => await _navigationService.Navigate<WalletDescriptionViewModel, Wallet>(wallet));
             UpdateDataCommand = new MvxAsyncCommand(UpdateData);
             CashValuta = _valuta_UAH;
-            TotalCash = "99999.88";
+            TotalCash = "1000";
         }
         #endregion Constructors
 

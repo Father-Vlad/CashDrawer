@@ -3,14 +3,18 @@
     public class Wallet
     {
         public string WalletFirstLetter { get; set; }
+        public int WalletCashPercent { get; set; }
+        public string WalletCash { get; set; }
 
         public Wallet()
         {
         }
 
-        public Wallet(string _walletFirstLetter)
+        public Wallet(string walletFirstLetter, int walletCashPercent, string walletCash)
         {
-            WalletFirstLetter = _walletFirstLetter;
+            WalletFirstLetter = walletFirstLetter;
+            WalletCashPercent = walletCashPercent;
+            WalletCash = walletCash;
         }
     }
 }
