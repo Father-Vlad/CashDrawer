@@ -2,16 +2,17 @@
 using System.Collections.Generic;
 using System.Text;
 using MvvmCross.Navigation;
+using MvvmCross.Plugin.Messenger;
 
 namespace CashDrawer.Core.ViewModels
 {
-    public class LoginViewModel : BaseViewModel<object>
+    public class LoginViewModel : BaseViewModel
     {
         #region Variables
         #endregion Variables
 
         #region Constructors
-        public LoginViewModel(IMvxNavigationService navigationService) : base(navigationService)
+        public LoginViewModel(IMvxNavigationService navigationService, IMvxMessenger messenger) : base(navigationService, messenger)
         {
         }
         #endregion Constructors

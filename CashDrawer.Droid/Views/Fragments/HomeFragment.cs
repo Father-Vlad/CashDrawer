@@ -1,5 +1,7 @@
-﻿using Android.OS;
+﻿using Android.App;
+using Android.OS;
 using Android.Runtime;
+using Android.Support.V4.App;
 using Android.Support.V7.Widget;
 using Android.Views;
 using Android.Views.Animations;
@@ -8,6 +10,7 @@ using CashDrawer.Core.ViewModels;
 using CashDrawer.Droid.Adapters;
 using CashDrawer.Droid.Constants;
 using CashDrawer.Droid.Helper;
+using Java.Lang;
 using MvvmCross.Droid.Support.V7.RecyclerView;
 using MvvmCross.Platforms.Android.Binding.BindingContext;
 using MvvmCross.Platforms.Android.Presenters.Attributes;
@@ -31,6 +34,12 @@ namespace CashDrawer.Droid.Views.Fragments
         #endregion Variables
 
         #region Lifecycle
+        public override void OnCreate(Bundle savedInstanceState)
+        {
+            base.OnCreate(savedInstanceState);
+            Activity.OverridePendingTransition(Resource.Animation.FadeIn, Resource.Animation.FadeOut);
+        }
+
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             var view = base.OnCreateView(inflater, container, savedInstanceState);

@@ -1,14 +1,15 @@
 ﻿using CashDrawer.Core.Helper;
 using MvvmCross.Commands;
 using MvvmCross.Navigation;
+using MvvmCross.Plugin.Messenger;
 using System.Threading.Tasks;
 
 namespace CashDrawer.Core.ViewModels
 {
-    public class SplashViewModel : BaseViewModel<object>
+    public class SplashViewModel : BaseViewModel
     {
         #region Constructors
-        public SplashViewModel(IMvxNavigationService navigationService) : base(navigationService)
+        public SplashViewModel(IMvxNavigationService navigationService, IMvxMessenger messenger) : base(navigationService, messenger)
         {
             TerminateAnimationCommand = new MvxAsyncCommand(TerminateAnimationAsync);
         }

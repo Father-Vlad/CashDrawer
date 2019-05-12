@@ -34,7 +34,7 @@
 			android:background="@drawable/history_icon_40"
 			android:layout_centerInParent="true"
 			android:scaleType="centerCrop"
-			app:MvxBind = "Click ToolbarButtonCommand"
+			app:MvxBind = "Click RightToolbarButtonCommand"
 		/>
 	</RelativeLayout>
 </android.support.constraint.ConstraintLayout>

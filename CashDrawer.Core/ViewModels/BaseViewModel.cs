@@ -1,13 +1,15 @@
 ﻿using MvvmCross.Commands;
 using MvvmCross.Navigation;
+using MvvmCross.Plugin.Messenger;
 using MvvmCross.ViewModels;
 
 namespace CashDrawer.Core.ViewModels
 {
-    public abstract class BaseViewModel<T> : MvxViewModel<T>
+    public abstract class BaseViewModel : MvxViewModel
     {
         #region Variables
         protected readonly IMvxNavigationService _navigationService;
+        protected readonly IMvxMessenger _messenger;
         #endregion Variables
 
         #region Fields
@@ -15,16 +17,14 @@ namespace CashDrawer.Core.ViewModels
         #endregion Fields
 
         #region Constructors
-        public BaseViewModel(IMvxNavigationService navigationService)
+        public BaseViewModel(IMvxNavigationService navigationService, IMvxMessenger messenger)
         {
             _navigationService = navigationService;
+            _messenger = messenger;
         }
         #endregion Constructors
 
         #region Lifecycle
-        public override void Prepare(T parameter)
-        {
-        }
         #endregion Lifecycle
 
         #region Properties
@@ -44,7 +44,8 @@ namespace CashDrawer.Core.ViewModels
         #endregion Properties
 
         #region Commands
-        public IMvxAsyncCommand ToolbarButtonCommand { get; set; }
+        public IMvxAsyncCommand LeftToolbarButtonCommand { get; set; }
+        public IMvxAsyncCommand RightToolbarButtonCommand { get; set; }
         #endregion Commands
 
         #region Methods

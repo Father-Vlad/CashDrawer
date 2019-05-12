@@ -26,7 +26,7 @@ namespace CashDrawer.Droid.Views
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.SplashScreenAnimatedLayout);
-            OverridePendingTransition(Android.Resource.Animation.FadeIn, Android.Resource.Animation.FadeOut);
+            OverridePendingTransition(Resource.Animation.FadeIn, Resource.Animation.FadeOut);
             Initialize();
         }
         #endregion Lifecycle

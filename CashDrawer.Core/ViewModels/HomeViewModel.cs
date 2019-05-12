@@ -6,10 +6,11 @@ using CashDrawer.Core.Models;
 using MvvmCross.Commands;
 using MvvmCross.Navigation;
 using MvvmCross.ViewModels;
+using MvvmCross.Plugin.Messenger;
 
 namespace CashDrawer.Core.ViewModels
 {
-    public class HomeViewModel : BaseViewModel<object>
+    public class HomeViewModel : BaseViewModel
     {
         #region Variables
         private string _titleText = "Cash Drawer";
@@ -28,17 +29,17 @@ namespace CashDrawer.Core.ViewModels
         #endregion Fields
 
         #region Constructors
-        public HomeViewModel(IMvxNavigationService navigationService) : base(navigationService)
+        public HomeViewModel(IMvxNavigationService navigationService, IMvxMessenger messenger) : base(navigationService, messenger)
         {
             TitleText = _titleText;
-            ToolbarButtonCommand = new MvxAsyncCommand(async () => await _navigationService.Close(this));
+            RightToolbarButtonCommand = new MvxAsyncCommand(async () => await _navigationService.Navigate<ViewPagerViewModel>());
             Wallets = new MvxObservableCollection<Wallet>();
             Wallets.Add(new Wallet("П", "20%", "2177.2"));
             Wallets.Add(new Wallet("Р", "16%", "1693.76"));
             Wallets.Add(new Wallet("И", "3%", "317.58"));
             Wallets.Add(new Wallet("И", "61%", "6457.46"));
             IsRefreshLayoutRefreshing = false;
-            LookDescriptionCommand = new MvxAsyncCommand<Wallet>(async (wallet) => await _navigationService.Navigate<WalletDescriptionViewModel, Wallet>(wallet));
+            LookDescriptionCommand = new MvxAsyncCommand(async () => await _navigationService.Navigate<WalletDescriptionViewModel>());
             UpdateDataCommand = new MvxAsyncCommand(UpdateData);
             CashValuta = _valuta_UAH;
             TotalCash = "10586";
@@ -113,7 +114,7 @@ namespace CashDrawer.Core.ViewModels
         #endregion Properties
 
         #region Commands
-        public IMvxAsyncCommand<Wallet> LookDescriptionCommand { get; set; }
+        public IMvxAsyncCommand LookDescriptionCommand { get; set; }
         public IMvxAsyncCommand UpdateDataCommand { get; set; }
         #endregion Commands
 

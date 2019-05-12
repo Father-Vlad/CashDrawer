@@ -1,12 +1,13 @@
 ﻿using MvvmCross.Commands;
 using MvvmCross.Navigation;
+using MvvmCross.Plugin.Messenger;
 
 namespace CashDrawer.Core.ViewModels
 {
-    public class MainViewModel : BaseViewModel<object>
+    public class MainViewModel : BaseViewModel
     {
         #region Constructors
-        public MainViewModel(IMvxNavigationService navigationService) : base(navigationService)
+        public MainViewModel(IMvxNavigationService navigationService, IMvxMessenger messenger) : base(navigationService, messenger)
         {
             ShowCurrentViewModelCommand = new MvxCommand(ShowCurrentViewModel);
             ShowLoginViewModelCommand = new MvxAsyncCommand(async () => await _navigationService.Navigate<LoginViewModel>());

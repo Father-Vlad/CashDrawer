@@ -1,15 +1,16 @@
 ﻿using CashDrawer.Core.Models;
 using MvvmCross.Navigation;
+using MvvmCross.Plugin.Messenger;
 
 namespace CashDrawer.Core.ViewModels
 {
-    public class WalletDescriptionViewModel : BaseViewModel<Wallet>
+    public class WalletDescriptionViewModel : BaseViewModel
     {
         #region Variables
         #endregion Variables
 
         #region Constructors
-        public WalletDescriptionViewModel(IMvxNavigationService navigationService) : base(navigationService)
+        public WalletDescriptionViewModel(IMvxNavigationService navigationService, IMvxMessenger messenger) : base(navigationService, messenger)
         {
         }
         #endregion Constructors
